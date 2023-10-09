@@ -11,6 +11,9 @@ import PopularList from "./Country/PopularList";
 import HotelMap from "./Hotel/HotelMap";
 import ReviewsList from "./Hotel/ReviewsList";
 import ReviewTle from "./Tiles/Reviews/ReviewTle";
+import SettingTile from "./Tiles/Settings/SettingTile";
+import ProfileTile from "./Tiles/Proflie/ProfileTile";
+import AssetImage from "./Reusable/AssetImage";
 
 export {
   ReusableBtn,
@@ -26,4 +29,7 @@ export {
   HotelMap,
   ReviewTle,
   ReviewsList,
+  SettingTile,
+  ProfileTile,
+  AssetImage,
 };
