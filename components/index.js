@@ -9,11 +9,12 @@ import AppBar from "./Reusable/AppBar";
 import DescriptionText from "./Reusable/DescriptionText";
 import PopularList from "./Country/PopularList";
 import HotelMap from "./Hotel/HotelMap";
-import ReviewsList from "./Hotel/ReviewsList";
+// import ReviewsList from "./Hotel/ReviewsList";
 import ReviewTle from "./Tiles/Reviews/ReviewTle";
 import SettingTile from "./Tiles/Settings/SettingTile";
 import ProfileTile from "./Tiles/Proflie/ProfileTile";
 import AssetImage from "./Reusable/AssetImage";
+import Counter from "./Reusable/Counter";
 
 export {
   ReusableBtn,
@@ -28,8 +29,9 @@ export {
   PopularList,
   HotelMap,
   ReviewTle,
-  ReviewsList,
+  // ReviewsList,
   SettingTile,
   ProfileTile,
   AssetImage,
+  Counter,
 };

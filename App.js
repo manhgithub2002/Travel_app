@@ -15,6 +15,9 @@ import {
   SelectRoom,
   Payments,
   Settings,
+  SelectedRoom,
+  Successed,
+  Failed,
 } from "./screens";
 import BottomTabNavigation from "./navigation/BottomTabNavigation";
 
@@ -98,8 +101,23 @@ export default function App() {
           options={{ headerShown: false }}
         />
         <Stack.Screen
+          name="Successed"
+          component={Successed}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Failed"
+          component={Failed}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
           name="Settings"
           component={Settings}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="SelectedRoom"
+          component={SelectedRoom}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

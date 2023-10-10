@@ -1,10 +1,11 @@
 import { View, Text } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { Home, Profile, Chat, Location, Successed } from "../screens";
+import { Home, Profile, Chat, Location, Successed, Failed } from "../screens";
 import { Ionicons } from "@expo/vector-icons";
 import { COLORS } from "../constants/theme";
 import TopTab from "./TopTab";
+import AuthTopTab from "./AuthTopTab";
 const Tab = createBottomTabNavigator();
 
 const tabBarStyle = {
@@ -62,7 +63,7 @@ const BottomTabNavigation = () => {
 
       <Tab.Screen
         name="Chat"
-        component={Successed}
+        component={AuthTopTab}
         options={{
           tabBarStyle: tabBarStyle,
           tabBarShowLabel: false,
